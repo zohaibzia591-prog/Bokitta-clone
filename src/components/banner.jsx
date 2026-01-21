@@ -14,7 +14,7 @@ const banner = () => {
                     <br/>
                     That Looks Good
                     <br/>
-                    on You
+                    on You hello
                   </h1>
                   <span className="text-white text-xl font-light ">
                     Explore our Latest Collections
