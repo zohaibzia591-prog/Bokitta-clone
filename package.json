@@ -12,8 +12,11 @@
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.1.17",
+    "jquery": "^4.0.0",
+    "owl.carousel": "^2.3.4",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "swiper": "^12.1.0",
     "tailwindcss": "^4.1.17"
   },
   "devDependencies": {

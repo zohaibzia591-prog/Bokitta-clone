@@ -6,20 +6,20 @@ import loungewear from "../assets/images/Lounge_Sets.webp";
 import candle from "../assets/images/Candlelight.webp";
 import collection from "../assets/images/view-all-collections.webp";
 import instant from "../assets/images/instant-hijab-guide.webp";
-import sale from "../assets/images/sale-50.webp"
-import plain from "../assets/images/plain chiffon.webp"
-import classic from "../assets/images/classics.jpg"
-import sports from "../assets/images/active-sports.webp"
-import palestine from "../assets/images/Palestine-donation.jpg"
-import monogram from "../assets/images/Monogram.webp"
-import watercolor from "../assets/images/watercolor-whispers.webp"
-import monogramsets from "../assets/images/monogram-haya-sets.webp"
-import linen from "../assets/images/linen sets.webp"
-import blossom from "../assets/images/blossom-gallery.webp"
-import worldtravel from "../assets/images/world-traveller.webp"
-import modaljersey from "../assets/images/modal-Jersey-collection.webp"
-import { UserIcon } from "@heroicons/react/24/outline"
-import { MagnifyingGlassIcon } from '@heroicons/react/24/solid'
+import sale from "../assets/images/sale-50.webp";
+import plain from "../assets/images/plain chiffon.webp";
+import classic from "../assets/images/classics.jpg";
+import sports from "../assets/images/active-sports.webp";
+import palestine from "../assets/images/Palestine-donation.jpg";
+import monogram from "../assets/images/Monogram.webp";
+import watercolor from "../assets/images/watercolor-whispers.webp";
+import monogramsets from "../assets/images/monogram-haya-sets.webp";
+import linen from "../assets/images/linen sets.webp";
+import blossom from "../assets/images/blossom-gallery.webp";
+import worldtravel from "../assets/images/world-traveller.webp";
+import modaljersey from "../assets/images/modal-Jersey-collection.webp";
+import { UserIcon } from "@heroicons/react/24/outline";
+import { MagnifyingGlassIcon } from '@heroicons/react/24/solid';
 import { ShoppingBagIcon } from "@heroicons/react/24/outline";
 
 
@@ -27,8 +27,8 @@ const Header = () => {
   return (
     <div>
       <section>
-        <nav className=" flex justify-between py-3 px-10 relative">
-          <div className="flex gap-x-7 max-w-7xl mx-2 mt-0.5">
+        <nav className="flex justify-between py-3 px-10 relative">
+          <div className="flex justify-center gap-x-7 max-w-7xl py-1">
 
             <div>
                 <img
@@ -45,9 +45,9 @@ const Header = () => {
               <li className="group">
                 <a>
                 <span className="relative after:content-[''] after:absolute after:left-0  after:-bottom-1.5
-               after:h-0.5 after:w-0 after:bg-black
-               after:transition-all after:duration-300
-               hover:after:w-full hover:after:left-0 hover:text-black">
+                          after:h-0.5 after:w-0 after:bg-black
+                          after:transition-all after:duration-500
+                          hover:after:w-full hover:after:left-0 hover:text-black">
                     New
                 </span>
 
@@ -108,7 +108,7 @@ const Header = () => {
                 <a>
                     <span className="relative after:content-[''] after:absolute after:left-0  after:-bottom-1.5
                       after:h-0.5 after:w-0 after:bg-black
-                      after:transition-all after:duration-300
+                      after:transition-all after:duration-500
                       hover:after:w-full hover:after:left-0 hover:text-black">
                         
                       Shop Hijabs
@@ -220,7 +220,7 @@ const Header = () => {
                 <a>
                     <span className="relative after:content-[''] after:absolute after:left-0  after:-bottom-1.5
                       after:h-0.5 after:w-0 after:bg-black
-                      after:transition-all after:duration-300
+                      after:transition-all after:duration-500
                       hover:after:w-full hover:after:left-0 hover:text-black">
                         
                         Collections
@@ -412,7 +412,7 @@ const Header = () => {
                   <a>
                     <span className="relative after:content-[''] after:absolute after:left-0  after:-bottom-1.5
                       after:h-0.5 after:w-0 after:bg-black
-                      after:transition-all after:duration-300
+                      after:transition-all after:duration-500
                       hover:after:w-full hover:after:left-0 hover:text-black">
                         
                         Accessories
@@ -444,7 +444,7 @@ const Header = () => {
                 <a>
                     <span className="relative after:content-[''] after:absolute after:left-0  after:-bottom-1.5
                       after:h-0.5 after:w-0 after:bg-black
-                      after:transition-all after:duration-300
+                      after:transition-all after:duration-500
                       hover:after:w-full hover:after:left-0 hover:text-black">
                         
                         Clothing & Prayer Sets
@@ -478,7 +478,7 @@ const Header = () => {
                 <a>
                     <span className="relative after:content-[''] after:absolute after:left-0  after:-bottom-1.5
                       after:h-0.5 after:w-0 after:bg-black
-                      after:transition-all after:duration-300
+                      after:transition-all after:duration-500
                       hover:after:w-full hover:after:left-0 hover:text-black">
                         
                         Hijab Guide
@@ -514,7 +514,7 @@ const Header = () => {
                 <a>
                     <span className="relative after:content-[''] after:absolute after:left-0  after:-bottom-1.5
                       after:h-0.5 after:w-0 after:bg-black
-                      after:transition-all after:duration-300
+                      after:transition-all after:duration-500
                       hover:after:w-full hover:after:left-0 hover:text-black">
                         
                         Sale
@@ -539,9 +539,9 @@ const Header = () => {
 
            <div className="flex justify-evenly items-center w-[200px]">
 
-              <a href="account"><UserIcon className="w-6 h-6 text-black-600" /></a>
-              <a href="search"><MagnifyingGlassIcon className="size-6 text-black-500" /></a>
-              <a href="cart"><ShoppingBagIcon className="size-6 text-black-500" /></a>
+              <a href="account"><UserIcon className="w-6 h-6 text-black-600"/></a>
+              <a href="search"><MagnifyingGlassIcon className="size-6 text-black-500"/></a>
+              <a href="cart"><ShoppingBagIcon className="size-6 text-black-500"/></a>
               
 
             </div> 
