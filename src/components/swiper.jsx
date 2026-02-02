@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import { Autoplay } from "swiper/modules";
 import ReviewCard from "./reviewCard";
 
 export default function ReviewSlider() {
@@ -52,12 +53,14 @@ export default function ReviewSlider() {
         product:"Soft Yellow Satin Crinkled -",
     }
   ];
+  console.log(reviews);
 
   return (
-    <div className="relative max-w-7xl mx-auto px-6">
+    <div className="max-w-7xl mx-auto  py-6 bg-amber-500">
 
       <Swiper
         modules={[Navigation]}
+        autoplay={{delay: 5000}}
         navigation
         loop
         spaceBetween={5}

@@ -22,6 +22,8 @@ import Factory from "../assets/images/our-factory.webp";
 import Empowering from "../assets/images/empowering-women.webp";
 import Carousel from "./carousel";
 import ReviewSlider from "./swiper";
+import { StarIcon } from '@heroicons/react/24/solid';
+
 
 const mainContent = () => {
   return (
@@ -375,18 +377,25 @@ const mainContent = () => {
       </section>
 
       <section>
-        <div>
+        <div className="flex justify-center items-center bg-amber-950 px-8">
           
+            <div className=''>
+              <h2 className='font-light text-3xl'>
+                  Product
+                  <br /> 
+                  reviews
+              </h2>
+              <div className='flex'>
+                  <span><StarIcon className="w-5 h-6 size-4 text-[#c53b6b]"/></span>
+                  <span><StarIcon className="w-5 h-6 size-4 text-[#c53b6b]"/></span>
+                  <span><StarIcon className="w-5 h-6 size-4 text-[#c53b6b]"/></span>
+                  <span><StarIcon className="w-5 h-6 size-4 text-[#c53b6b]"/></span>
+                  <span><StarIcon className="w-5 h-6 size-4 text-[#c53b6b]"/></span>
+              </div>
+                  <a href=""><span>from 4696 reviews</span></a>
+          </div>
+
             <ReviewSlider />
-         
-
-
-
-            
-
-
-
-          
         </div>
       </section>
       {/* <section>
