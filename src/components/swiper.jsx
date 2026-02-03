@@ -56,14 +56,14 @@ export default function ReviewSlider() {
   console.log(reviews);
 
   return (
-    <div className="max-w-7xl mx-auto  py-6 bg-amber-500">
+    <div className="max-w-3xl ">
 
       <Swiper
-        modules={[Navigation]}
-        autoplay={{delay: 5000}}
+        modules={[Navigation,Autoplay]}
         navigation
+        autoplay={{ delay: 3000 }}
         loop
-        spaceBetween={5}
+        spaceBetween={2}
         slidesPerView={4}
         breakpoints={{
           320: { slidesPerView: 1 },

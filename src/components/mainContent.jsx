@@ -376,10 +376,10 @@ const mainContent = () => {
         </div>
       </section>
 
-      <section>
-        <div className="flex justify-center items-center bg-amber-950 px-8">
+      <section className="w-full py-16">
+        <div className="flex justify-center gap-14 w-[80%] h-[370px] m-auto">
           
-            <div className=''>
+            <div>
               <h2 className='font-light text-3xl'>
                   Product
                   <br /> 
@@ -393,16 +393,51 @@ const mainContent = () => {
                   <span><StarIcon className="w-5 h-6 size-4 text-[#c53b6b]"/></span>
               </div>
                   <a href=""><span>from 4696 reviews</span></a>
-          </div>
+            </div>
 
             <ReviewSlider />
         </div>
       </section>
-      {/* <section>
+
+      <section>
         <div>
           <img src={Empowering} alt="empowering-women" />
         </div>
-      </section> */}
+      </section>
+
+    <section className="w-full py-18">
+      <div className="text-center w-[80%] m-auto">
+        <div className=" ">
+                  <h2 className="text-3xl font-light text-black">Empowering Women, Empowering Modesty.</h2>
+
+        </div>
+        <div className="pt-8 ">
+          <p className="text-[15px] font-light tracking-[1px]">
+              At Bokitta, we design premium ready-to-wear hijabs that celebrate every woman’s journey.
+               Made with high-quality, breathable fabrics like Lenzing jersey, chiffon, and feather-light modal,
+                our hijabs provide unmatched comfort and effortless elegance for all-day wear. 
+                Thoughtfully designed to flatter all face shapes, they are perfect for women from all walks 
+                of life. Confident, timeless, and effortlessly feminine, Bokitta is here to help you look
+                 and feel your best every single day.
+                <a href="https://bokitta.com/pages/about-bokitta">
+                <em>
+                    <span
+                      className="relative before:content-[''] before:absolute before:left-0 before:-bottom-[0.2px]
+                                      before:h-[1.5px] before:w-full before:bg-[#d9d9d9]
+                                      after:content-[''] after:absolute after:left-0 after:-bottom-[0.2px]
+                                      after:h-[2.1px] after:w-0 after:bg-black
+                                      after:transition-all after:duration-550
+                                      hover:after:w-full hover:after:left-0 hover:text-black"
+                    >
+                      Discover 
+                    </span>
+                </em>
+              </a>
+                  the perfect hijab for your lifestyle today.
+          </p>
+        </div>
+      </div>
+      </section>
     </>
   );
 };
