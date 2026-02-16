@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.9",
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.1.17",
+    "flag-icons": "^7.5.0",
     "jquery": "^4.0.0",
     "owl.carousel": "^2.3.4",
     "react": "^19.2.0",

@@ -1,59 +1,119 @@
-import React from 'react'
+import React from "react";
+import CurrencyDropdown from "./currencyDropdown";
 
 const Footer = () => {
   return (
     <div>
-      <div className='flex justify-around'>
-      <div>
-        <h4>SERVICES</h4>
-        <div>
-          <ul>
-            <li>Contact us</li>
-            <li>FAQ</li>
-            <li>Find A Store</li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <h4>SHOPPING GUIDE</h4>
-        <div>
-          <ul>
-            <li>The Complete Hijab Design Style Guide</li>
-            <li>How T Buy</li>
-            <li>Payment Options</li>
-            <li>Shipping & Delivery</li>
-            <li>Track Your Order</li>
-            <li>Returns & Exchange Policy</li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <h4>Bokitta</h4>
-        <div>
-          <ul>
-            <li>Our Story</li>
-            <li>Our Patents</li>
-            <li>Loyalty Program</li>
-            <li>Startup Program</li>
-            <li>Affiliates Program</li>
-            <li>Refer a Friend</li>
-            <li>Blog & Fashion Tips</li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <h4>Services</h4>
-        <div>
-          <ul>
-            <li>Contact us</li>
-            <li>FAQ</li>
-            <li>Find A Store</li>
-          </ul>
-        </div>
-      </div>
-      </div>
-    </div>
-  )
-}
+      <footer>
+        <div className="grid grid-cols-4 border-t border-[#e8e8e1] py-16 w-full  ">
+          <div>
+            <h4 className="text-[12px] font-light tracking-[3px] text-black">
+              SERVICES
+            </h4>
+            <div className="pt-5">
+              <ul className="font-light space-y-3 text-[12.75px] text-black">
+                <li>
+                  <a href="">Contact us</a>
+                </li>
+                <li>
+                  <a href="">FAQ</a>
+                </li>
+                <li>
+                  <a href="">Find A Store</a>
+                </li>
+              </ul>
+              <div>
+                <CurrencyDropdown />
+              </div>
+            </div>
+          </div>
 
-export default Footer
+          <div>
+            <h4 className="text-[12px] font-light tracking-[3px] text-black">
+              SHOPPING GUIDE
+            </h4>
+            <div className="pt-5">
+              <ul className="font-light space-y-3 text-[12.75px] text-black">
+                <li>
+                  <a href="">The Complete Hijab Design Style Guide</a>
+                </li>
+                <li>
+                  <a href="">How T Buy</a>
+                </li>
+
+                <li>
+                  <a href="">Payment Options</a>
+                </li>
+
+                <li>
+                  <a href="">Shipping & Delivery</a>
+                </li>
+
+                <li>
+                  <a href="">Track Your Order</a>
+                </li>
+
+                <li>
+                  <a href="">Returns & Exchange Policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-[12px] font-light tracking-[3px] text-black">
+              BOKITTA
+            </h4>
+            <div className="pt-5">
+              <ul className="font-light space-y-3 text-[12.75px] text-black">
+                <li>
+                  <a href="">Our Story</a>
+                </li>
+
+                <li>
+                  <a href="">Our Patents</a>
+                </li>
+                <li>
+                  <a href="">Loyalty Program</a>
+                </li>
+                <li>
+                  <a href="">Startup program</a>
+                </li>
+                <li>
+                  <a href="">Affiliates program</a>
+                </li>
+                <li>
+                  <a href="">Refer a Friend</a>
+                </li>
+                <li>
+                  <a href="">Blog & Fashion Tips</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-[12px] font-light tracking-[3px] text-black">
+              LEGAL
+            </h4>
+            <div className="pt-4">
+              <ul className="font-light text-black text-[12.75px] space-y-3">
+                <li>
+                  <a href="">Terms of Service</a>
+                </li>
+                <li>
+                  <a href="">Privacy & Cookies</a>
+                </li>
+                <li>
+                  <a href="">Refund Policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Footer;

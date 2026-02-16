@@ -23,6 +23,7 @@ import Empowering from "../assets/images/empowering-women.webp";
 import Carousel from "./carousel";
 import ReviewSlider from "./swiper";
 import { StarIcon } from '@heroicons/react/24/solid';
+import Footer from "./Footer";
 
 
 const mainContent = () => {
@@ -324,6 +325,7 @@ const mainContent = () => {
                                       after:h-[2.1px] after:w-0 after:bg-black
                                       after:transition-all after:duration-550
                                       hover:after:w-full hover:after:left-0 hover:text-black"
+                                      title="https://bokitta.com/pages/about-bokitta"
                     >
                       Learn more &gt;&gt;
                     </span>
@@ -412,7 +414,7 @@ const mainContent = () => {
 
         </div>
         <div className="pt-8 ">
-          <p className="text-[15px] font-light tracking-[1px]">
+          <p className="text-[15px] font-light text-black">
               At Bokitta, we design premium ready-to-wear hijabs that celebrate every woman’s journey.
                Made with high-quality, breathable fabrics like Lenzing jersey, chiffon, and feather-light modal,
                 our hijabs provide unmatched comfort and effortless elegance for all-day wear. 
@@ -428,8 +430,9 @@ const mainContent = () => {
                                       after:h-[2.1px] after:w-0 after:bg-black
                                       after:transition-all after:duration-550
                                       hover:after:w-full hover:after:left-0 hover:text-black"
+                                      title="Discover the perfect hijab"
                     >
-                      Discover 
+                      Discover  
                     </span>
                 </em>
               </a>
@@ -438,6 +441,13 @@ const mainContent = () => {
         </div>
       </div>
       </section>
+
+      <section>
+          <Footer/>  
+      </section>
+
+      
+
     </>
   );
 };
