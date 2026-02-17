@@ -46,7 +46,7 @@ const  CurrencyDropdown = () => {
           {/* Button */}
           <ListboxButton className="flex w-full items-center justify-between gap-2
            rounded-md border border-gray-300 bg-white px-3 py-2
-            text-sm shadow-sm hover:border-gray-400 focus:outline-none">
+            text-sm hover:border-gray-400 focus:outline-none">
             <div className="flex items-center gap-2">
               <span
                 className={`fi fi-${selected.country.toLowerCase()} rounded-sm`}
@@ -57,7 +57,7 @@ const  CurrencyDropdown = () => {
           </ListboxButton>
 
           {/* Dropdown */}
-          <ListboxOptions className="absolute z-10 mt-1 w-full rounded-md border bg-white shadow-lg">
+          <ListboxOptions className="absolute z-10 mt-1 w-full rounded-md border bg-white">
             {currencies.map((item) => (
               <ListboxOption
                 key={item.code}

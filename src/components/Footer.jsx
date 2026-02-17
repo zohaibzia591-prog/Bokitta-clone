@@ -1,11 +1,11 @@
-import React from "react";
 import CurrencyDropdown from "./currencyDropdown";
+import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div>
       <footer>
-        <div className="grid grid-cols-4 border-t border-[#e8e8e1] py-16 w-full  ">
+        <div className="grid grid-cols-4 border-t border-[#e8e8e1] py-16 w-full px-[45px]">
           <div>
             <h4 className="text-[12px] font-light tracking-[3px] text-black">
               SERVICES
@@ -22,7 +22,7 @@ const Footer = () => {
                   <a href="">Find A Store</a>
                 </li>
               </ul>
-              <div>
+              <div className="pt-1.5">
                 <CurrencyDropdown />
               </div>
             </div>
@@ -111,6 +111,35 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="w-full">
+            <ul className="flex justify-center items-center gap-4">
+              <li>
+                <a href="https://instagram.com" target="_blank" rel="noreferrer">
+                  <FaInstagram className="w-6 h-6 text-gray-700 " />
+               </a>
+               </li>
+              <li>
+                <a href="https://facebook.com" target="_blank" rel="noreferrer">
+                  <FaFacebook className="w-6 h-6 text-gray-700 " />
+               </a>
+              </li>
+              <li>
+                <a href="https://youtube.com" target="_blank" rel="noreferrer">
+                  <FaYoutube className="w-6 h-6 text-gray-700 " />
+               </a>
+              </li>
+              <li>
+                <a href="https://twitter.com" target="_blank" rel="noreferrer">
+                  <FaTwitter className="w-6 h-6 text-gray-700 " />
+               </a>
+              </li>
+              <li>
+                <a href="https://pinterest.com" target="_blank" rel="noreferrer">
+                  <FaPinterest className="w-6 h-6 text-gray-700" />
+               </a>
+              </li>
+            </ul>
+          </div>
       </footer>
     </div>
   );
